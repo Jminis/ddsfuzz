@@ -90,3 +90,20 @@ source setenv.sh
 
 Think carefully before running ```./cleanup.sh```. ```cleanup.sh``` remove all binaries, log files, cert files and DDS libraries. Install of DDS libraries will take a long time.
 
+# Citation
+```
+@inproceedings{ddsfuzz,
+    author = {Ryu, Dohyun and Kim, Giyeol and Lee, Daeun and Kim, Seongjin and Bae, Seungjin and Rhee, Junghwan and Kim, Taegyu},
+    title = {Differential Fuzzing for Data Distribution Service Programs with Dynamic Configuration},
+    year = {2024},
+    isbn = {9798400712487},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3691620.3695073},
+    doi = {10.1145/3691620.3695073},
+    pages = {807–818},
+    numpages = {12},
+    location = {Sacramento, CA, USA},
+    series = {ASE '24}
+}
+```
