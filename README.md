@@ -1,15 +1,3 @@
-# System Specifications
-Intel Core i7-12700K 3.60 GHz and 64 GB memory.
-
-Ubuntu 22.04 with Linux kernel 6.5.0
-
-# Directory overview
-```core```: source codes of Input Generator, Program Executor, and Program Monitor
-
-```DDSFuzz```: scripts for fuzzing. The results of ```core``` must run within ```DDSFuzz``` folder.
-
-```aflnet```: a customized AFLNet.
-
 # How to build
 A project folder name must be ```DDS-FUZZ```. And ```DDS-FUZZ``` must be in the ```/home/<account name>``` path.
 
@@ -54,6 +42,17 @@ cd DDSFUzz
 
 ```DDSFuzz-minus.sh``` and ```DDSFuzz.sh``` make ```bugs``` file as a bug report file.
 
+# System Specifications
+Intel Core i7-12700K 3.60 GHz and 64 GB memory.
+
+Ubuntu 22.04 with Linux kernel 6.5.0
+
+# Directory overview
+```core```: source codes of Input Generator, Program Executor, and Program Monitor
+
+```DDSFuzz```: scripts for fuzzing. The results of ```core``` must run within ```DDSFuzz``` folder.
+
+```aflnet```: a customized AFLNet.
 
 # Troubleshooting
 Please refer to this when the scripts are not working.
