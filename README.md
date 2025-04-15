@@ -1,3 +1,8 @@
+# TEST
+
+1. need to check `aflnet` mode
+2. need to check `cmake` version
+
 # How to build
 A project folder name must be ```DDS-FUZZ```. And ```DDS-FUZZ``` must be in the ```/home/<account name>``` path.
 
